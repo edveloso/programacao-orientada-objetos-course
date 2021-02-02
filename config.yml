@@ -1,0 +1,16 @@
+title: programacao orientada objetos
+description: curso de progração orientada a objetos com Java
+template:
+  repo: programacao-orientada-objetos-template
+  name: programacao-orientada-objetos
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
